@@ -1,0 +1,262 @@
+/* --- General Reset --- */
+body {
+    background-color: white;
+    color: #111827;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* --- Contact Info Bars --- */
+.contact-info,
+.contact-inf {
+    font-size: 2.5vh;
+    margin: 0;
+    padding: 1vh 2vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contact-info {
+    background-color: #172d69;
+}
+.contact-inf {
+    background-color: #3b3b3b;
+}
+.email, .phone {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+/* --- Logo + Navbar --- */
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 0.5vw;
+    color: whitesmoke;
+    padding: 1vh 2vw;
+}
+.image023 {
+    width: 8vw;
+    max-width: 60px;
+    height: auto;
+}
+nav {
+    background-color: #1E3A8A;
+    color: whitesmoke;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1vh 2vw;
+}
+.webpages, .webpage {
+    font-size: 2.5vh;
+    margin: 1vh;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+/* --- Footer Links --- */
+.qscv {
+    background-color: #696969;
+    color: whitesmoke;
+    padding: 3vh 2vw;
+    margin-top: 5vh;
+    text-align: center;
+}
+.webpags, .webpag {
+    font-size: 2.5vh;
+    text-decoration: none;
+    color: white;
+    margin: 0 1vh;
+}
+
+/* --- Social Media Icons --- */
+#qd, #qs {
+  width: 5vh;
+  height: 5vh;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* --- Application Form --- */
+#application-form {
+    max-width: 600px;
+    margin: 5vh auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #1E3A8A;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    color: whitesmoke;
+    width: 90%;
+}
+#application-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+label {
+    display: block;
+    margin: 15px 0 5px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: left;
+}
+input, textarea {
+    width: 95%;
+    padding: 12px;
+    background-color: #000;
+    color: whitesmoke;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+}
+button {
+    background-color: #4CAF50;
+    color: yellow;
+    margin-top: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 40%;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* --- Responsive Design --- */
+@media (max-width: 1024px) {
+    .webpages, .webpage {
+        font-size: 2vh;
+        margin: 0.5vh;
+    }
+    .image023 {
+        width: 10vw;
+    }
+}
+
+@media (max-width: 768px) {
+    .contact-info, .contact-inf {
+        flex-direction: column;
+        text-align: center;
+        font-size: 2vh;
+    }
+    .email {
+        margin-left: 0;
+    }
+    nav {
+        flex-direction: column;
+    }
+    .webpages, .webpage {
+        font-size: 2vh;
+    }
+    #application-form {
+        width: 95%;
+    }
+    button {
+        width: 60%;
+    }
+}
+
+@media (max-width: 480px) {
+    .image023 {
+        width: 20vw;
+    }
+    .webpages, .webpage {
+        font-size: 1.8vh;
+    }
+    input, textarea {
+        width: 100%;
+    }
+    button {
+        width: 80%;
+        font-size: 14px;
+    }
+}
+/* ---------------- HEADER ---------------- */
+.contact-info {
+  background-color: #172d69;
+  color: whitesmoke;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.phone, .email {
+  color: whitesmoke;
+  text-decoration: none;
+  margin: 0.3rem 0.6rem;
+}
+#qd, #qs, #id {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-left: 10px;
+}
+
+/* Logo + Navigation */
+.logo {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 10px;
+  background-color: #1E3A8A;
+  color: whitesmoke;
+}
+.image023 {
+  width: 50px;
+  height: auto;
+}
+.webpages, .webpage {
+  font-size: 1rem;
+  text-decoration: none;
+  color: whitesmoke;
+  margin: 0 10px;
+}
+.webpages:hover, .webpage:hover {
+  text-decoration: underline;
+}
+
+/* ---------------- FOOTER ---------------- */
+.qscv {
+  background-color: #696969;
+  color: whitesmoke;
+  padding: 20px;
+  margin-top: 20px;
+  text-align: center;
+}
+.webpags, .webpag {
+  font-size: 1rem;
+  text-decoration: none;
+  color: white;
+  margin: 0 8px;
+}
+#qwdf {
+  display: block;
+  margin-top: 10px;
+  font-size: 0.9rem;
+}
+.contact-inf {
+  font-size: 1rem;
+  background-color: #3b3b3b;
+  padding: 10px;
+  text-align: center;
+}
+
+/* ---------------- RESPONSIVE ---------------- */
+@media (max-width: 768px) {
+  .contact-info { flex-direction: column; text-align: center; }
+  .logo { flex-direction: column; text-align: center; }
+  .webpages, .webpage {
+    display: block;
+    margin: 5px 0;
+    font-size: 0.9rem;
+  }
+}

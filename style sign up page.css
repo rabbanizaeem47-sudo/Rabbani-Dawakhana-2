@@ -1,0 +1,268 @@
+/* --- General Body --- */
+body {
+  background-color: white;
+  color: #111827;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* --- Header Info Bars --- */
+.contact-info,
+.contact-inf {
+  font-size: 2.5vh;
+  margin: 0;
+  padding: 1vh 2vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.contact-info {
+  background-color: #172d69;
+}
+.contact-inf {
+  background-color: #3b3b3b;
+}
+.email, .phone {
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+/* --- Logo + Navbar --- */
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 0.5vw;
+  color: whitesmoke;
+  padding: 1vh 2vw;
+}
+.image023 {
+  width: 8vw;
+  max-width: 60px;
+  height: auto;
+}
+nav {
+  background-color: #1E3A8A;
+  color: whitesmoke;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 1vh 2vw;
+}
+.webpages, .webpage {
+  font-size: 2.5vh;
+  margin: 1vh;
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+/* --- Social Media Icons --- */
+#qd, #qs {
+  width: 5vh;
+  height: 5vh;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* --- Banner Image --- */
+.image024 {
+  display: block;
+  margin: 2vh auto;
+  width: 95%;
+  max-width: 1200px;
+  height: auto;
+  border-radius: 2vh;
+}
+
+/* --- Signup Form --- */
+.signup-container {
+  background-color: #1E3A8A;
+  padding: 4vh 3vw;
+  border-radius: 2vh;
+  width: 50%;
+  max-width: 600px;
+  margin: 5vh auto;
+  color: whitesmoke;
+  text-align: center;
+  box-sizing: border-box;
+}
+label {
+  display: block;
+  margin-bottom: 1vh;
+  font-size: 2.5vh;
+  text-align: left;
+}
+input {
+  background-color: #111827;
+  color: whitesmoke;
+  border: none;
+  padding: 1.8vh;
+  margin-bottom: 2vh;
+  width: 95%;
+  font-size: 2.3vh;
+  border-radius: 0.5vh;
+}
+button {
+  background-color: #2563EB;
+  color: whitesmoke;
+  border: none;
+  padding: 1.5vh 3vh;
+  font-size: 2.5vh;
+  cursor: pointer;
+  border-radius: 0.5vh;
+  display: block;
+  margin: 2vh auto 0;
+  width: 50%;
+  max-width: 250px;
+}
+
+/* --- Footer Links --- */
+.qscv {
+  background-color: #696969;
+  color: whitesmoke;
+  padding: 3vh 2vw;
+  margin-top: 5vh;
+  text-align: center;
+}
+.webpags, .webpag {
+  font-size: 2.5vh;
+  text-decoration: none;
+  color: white;
+  margin: 0 1vh;
+}
+
+/* --- Responsive Design --- */
+@media (max-width: 1024px) {
+  .signup-container {
+    width: 70%;
+  }
+}
+
+@media (max-width: 768px) {
+  .contact-info, .contact-inf {
+    flex-direction: column;
+    text-align: center;
+    font-size: 2vh;
+  }
+  .email {
+    margin-left: 0;
+  }
+  nav {
+    flex-direction: column;
+  }
+  .webpages, .webpage {
+    font-size: 2vh;
+  }
+  .signup-container {
+    width: 80%;
+    padding: 3vh 2vw;
+  }
+  button {
+    width: 70%;
+  }
+}
+
+@media (max-width: 480px) {
+  .image023 {
+    width: 20vw;
+  }
+  .webpages, .webpage {
+    font-size: 1.8vh;
+  }
+  .signup-container {
+    width: 90%;
+    padding: 2vh 2vw;
+  }
+  input {
+    width: 100%;
+    font-size: 2vh;
+  }
+  button {
+    width: 90%;
+    font-size: 2vh;
+  }
+}
+/* ---------------- HEADER ---------------- */
+.contact-info {
+  background-color: #172d69;
+  color: whitesmoke;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.phone, .email {
+  color: whitesmoke;
+  text-decoration: none;
+  margin: 0.3rem 0.6rem;
+}
+#qd, #qs, #id {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-left: 10px;
+}
+
+/* Logo + Navigation */
+.logo {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 10px;
+  background-color: #1E3A8A;
+  color: whitesmoke;
+}
+.image023 {
+  width: 50px;
+  height: auto;
+}
+.webpages, .webpage {
+  font-size: 1rem;
+  text-decoration: none;
+  color: whitesmoke;
+  margin: 0 10px;
+}
+.webpages:hover, .webpage:hover {
+  text-decoration: underline;
+}
+
+/* ---------------- FOOTER ---------------- */
+.qscv {
+  background-color: #696969;
+  color: whitesmoke;
+  padding: 20px;
+  margin-top: 20px;
+  text-align: center;
+}
+.webpags, .webpag {
+  font-size: 1rem;
+  text-decoration: none;
+  color: white;
+  margin: 0 8px;
+}
+#qwdf {
+  display: block;
+  margin-top: 10px;
+  font-size: 0.9rem;
+}
+.contact-inf {
+  font-size: 1rem;
+  background-color: #3b3b3b;
+  padding: 10px;
+  text-align: center;
+}
+
+/* ---------------- RESPONSIVE ---------------- */
+@media (max-width: 768px) {
+  .contact-info { flex-direction: column; text-align: center; }
+  .logo { flex-direction: column; text-align: center; }
+  .webpages, .webpage {
+    display: block;
+    margin: 5px 0;
+    font-size: 0.9rem;
+  }
+}
